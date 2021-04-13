@@ -11,11 +11,12 @@ import me.ausaf.game.World;
 public class App extends Application {
 
     @Override
-    public void start(Stage stage) {
+    public void start(Stage stage) throws InterruptedException {
         stage.setTitle("The Egg");
         stage.setScene(new GameScene());
         stage.show();
         World.init();
+        Thread.sleep(2000);
     }
 
     public static void main(String[] args) {
