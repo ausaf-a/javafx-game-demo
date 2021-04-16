@@ -1,4 +1,4 @@
-# JavaFX Game Demo 
+# JavaFX Sprite Demo 
  ![Gif](./images/overpopulation.gif)
 
 I wanted to see how one might implement sprite animations using
